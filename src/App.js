@@ -1,23 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import background from "./assets/IMG_20191012_170346.jpg"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div class = 'fullsceen'>
+      <div class = 'firstName'>
+      KEVIN
+      </div>
+      <div class = 'lastName'>
+      CHUNG
+      </div>
     </div>
   );
 }
